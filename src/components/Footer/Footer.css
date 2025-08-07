@@ -30,7 +30,7 @@ a:hover {
     .footer{
         align-items: center;
         flex-direction: column;
-        margin-bottom: 4rem;
+        padding-bottom: 3rem;
     }
 }
 
