@@ -1,0 +1,49 @@
+[
+  {
+    "icon": "💡",
+    "projectName": "Reddit App Idea Extractor 💡",
+    "techStackBadges": ["React.js", "Node.js", "Gemini API", "Firebase"],
+    "features": [
+      "Automated extraction and summarization of Reddit user pain points and app ideas",
+      "Optimized architecture with daily data extraction, Gemini API processing, and Firestore fast retrieval",
+      "Helped entrepreneurs to find the next start up idea easily",
+      "It helps mitigate user's problems"
+    ],
+    "links": {
+      "demo": "https://reddit-scraper-fe.vercel.app/",
+      "github": "",
+      "caseStudy": ""
+    }
+  },
+  {
+    "icon": "📃",
+    "projectName": "Invoice Digitization & Generation Web App 📃",
+    "techStackBadges": ["React.js", "Node.js", "Gemini API"],
+    "features": [
+      "Digitizes scanned invoices using AI (Gemini API)",
+      "Inline editing, CSV export, and custom invoice generation with PDF downloads",
+      "Parsed 150+ sample invoices with 90%+ accuracy, reducing manual entry time by 70%",
+      "Helps freelancers and small businesses with polished invoice creation"
+    ],
+    "links": {
+      "demo": "https://www.invoceo.xyz/",
+      "github": "",
+      "caseStudy": ""
+    }
+  },
+  {
+    "icon": "🧠",
+    "projectName": "PatternRecall 🧠",
+    "techStackBadges": ["React.js", "Node.js"],
+    "features": [
+      "Self-learning platform for DSA learners to upload failed problems (up to 50)",
+      "Smart daily recommender system suggesting 2 pattern-based similar problems",
+      "Spaced repetition system improves long-term accuracy by 30–40%"
+    ],
+    "links": {
+      "demo": "https://dsa-pattern-app-fe.vercel.app/",
+      "github": "",
+      "caseStudy": ""
+    }
+  }
+]

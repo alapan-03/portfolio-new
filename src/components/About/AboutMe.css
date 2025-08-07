@@ -1,0 +1,131 @@
+.about-me-section {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  margin-top: 8rem;
+  color: #1a2238;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.7rem;
+  margin-bottom: 38px;
+  letter-spacing: 3.5px;
+  color: #0a192f;
+  font-weight: 700;
+}
+
+.vertical-line{
+    background-color: rgba(128, 128, 128, 0.166);
+    height: 65vh;
+    width: 2px;
+}
+
+.content-container {
+  display: flex;
+  gap: 100px;
+  /* height: 60vh; */
+  justify-content: space-between;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+}
+
+.description {
+  flex: 1 1 45%;
+  /* background: linear-gradient(120deg, #f3f6ff 82%, #e7ecfa 100%); */
+  border-radius: 18px;
+  /* padding: 34px 26px; */
+  /* box-shadow: 0 6px 22px rgba(30,40,60,0.08); */
+  font-size: 1.14rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.description .highlight {
+  /* color: #0077ff; */
+  font-weight: bold;
+  display: block;
+  font-size: 1.22em;
+  margin-bottom: 13px;
+  letter-spacing: 1px;
+}
+
+.description .stack {
+  /* color: #364fc7; */
+  font-weight: 600;
+}
+
+.description .motto {
+  display: block;
+  color: #ffc300;
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+}
+
+.education {
+  /* flex: 1 1 45%; */
+  padding: 0 10px;
+  text-align: left;
+}
+
+.education-title {
+  font-size: 1.5rem;
+  color: #0a192f;
+  font-weight: 600;
+  /* margin-bottom: 28px; */
+  /* border-bottom: 3px solid #0077ff; */
+  /* padding-bottom: 8px; */
+}
+
+.education-item {
+  /* margin-bottom: 0; */
+  line-height: 1.3;
+  padding: 0;
+  margin: 0;
+  /* background-color: #fff; */
+  border-radius: 15px;
+  /* box-shadow: 0 4px 14px rgba(10,25,47,0.07); */
+  padding: 12px 0px;
+  transition: box-shadow 0.28s ease;
+}
+
+/* .education-item:hover {
+  box-shadow: 0 8px 20px rgba(10,25,47,0.13);
+} */
+
+.education-item h3 {
+  margin-bottom: 0px;
+  /* color: #0077ff; */
+
+  font-weight: 600;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #334e68;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 720px) {
+  .content-container {
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .description{
+    text-align: center;
+  }
+  .description, .education {
+    flex: 1 1 100%;
+    margin-bottom: 35px;
+  }
+  .education-title{
+    text-align: center;
+  }
+}
