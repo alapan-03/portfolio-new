@@ -266,7 +266,7 @@ nav ul li {
   .icon {
     position: absolute;
     font-size: 2rem;
-    opacity: 0.4;
+    opacity: 0.3;
     animation: float 5s ease-in-out infinite alternate;
   }
   
