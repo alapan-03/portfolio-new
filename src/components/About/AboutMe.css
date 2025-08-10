@@ -8,9 +8,9 @@
 
 .section-title {
   text-align: center;
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   margin-bottom: 38px;
-  letter-spacing: 3.5px;
+  /* letter-spacing: 3.5px; */
   color: #0a192f;
   font-weight: 700;
 }

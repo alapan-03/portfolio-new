@@ -30,7 +30,7 @@ const Skills = () => (
   <div className="skills-container" id="skills">
     <h2>Skills</h2>
     <p className="skills-desc">
-      Here are the frameworks, libraries, services and runtimes I have experience with. This is not a complete list! I'm constantly gaining new skills, and hence it can be a little bit outdated.
+      Frameworks, libraries, databases, and runtimes I’ve worked with — continually expanding my skill set.
     </p>
     <div className="skills-list">
       {skills.map((row, i) => (
