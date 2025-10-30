@@ -217,7 +217,7 @@ nav ul li:hover::after {
 }
 
 nav ul li:hover {
-  color: #f8fafc;
+  color: #000000;
   transform: translateY(-2px);
 }
 
