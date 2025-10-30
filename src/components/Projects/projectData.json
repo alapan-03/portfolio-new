@@ -34,7 +34,7 @@
   {
     "icon": "🧠",
     "projectName": "PatternRecall 🧠",
-    "techStackBadges": ["React.js", "Node.js"],
+    "techStackBadges": ["React.js", "Node.js", "Gemini API"],
     "features": [
       "Self-learning platform for DSA learners to upload failed problems (up to 50)",
       "Smart daily recommender system suggesting 2 pattern-based similar problems",
